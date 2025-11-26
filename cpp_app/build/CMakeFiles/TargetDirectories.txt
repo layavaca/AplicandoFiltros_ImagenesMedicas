@@ -1,0 +1,3 @@
+/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles/vision_app.dir
+/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles/edit_cache.dir
+/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles/rebuild_cache.dir
