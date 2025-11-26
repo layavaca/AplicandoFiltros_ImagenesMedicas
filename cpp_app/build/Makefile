@@ -129,6 +129,30 @@ vision_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/build
 .PHONY : vision_app/fast
 
+src/day2_dicom_reader.o: src/day2_dicom_reader.cpp.o
+.PHONY : src/day2_dicom_reader.o
+
+# target to build an object file
+src/day2_dicom_reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o
+.PHONY : src/day2_dicom_reader.cpp.o
+
+src/day2_dicom_reader.i: src/day2_dicom_reader.cpp.i
+.PHONY : src/day2_dicom_reader.i
+
+# target to preprocess a source file
+src/day2_dicom_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.i
+.PHONY : src/day2_dicom_reader.cpp.i
+
+src/day2_dicom_reader.s: src/day2_dicom_reader.cpp.s
+.PHONY : src/day2_dicom_reader.s
+
+# target to generate assembly for a file
+src/day2_dicom_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.s
+.PHONY : src/day2_dicom_reader.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vision_app"
+	@echo "... src/day2_dicom_reader.o"
+	@echo "... src/day2_dicom_reader.i"
+	@echo "... src/day2_dicom_reader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -13,3 +13,7 @@ file(GLOB SOURCES "src/*.cpp")
 add_executable(vision_app ${SOURCES})
 
 target_link_libraries(vision_app ${OpenCV_LIBS})
+
+find_package(ITK REQUIRED)
+include(${ITK_USE_FILE})
+target_link_libraries(vision_app ${ITK_LIBRARIES})

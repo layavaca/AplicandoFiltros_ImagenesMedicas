@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o"
+  "CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o.d"
   "CMakeFiles/vision_app.dir/src/main.cpp.o"
   "CMakeFiles/vision_app.dir/src/main.cpp.o.d"
   "CMakeFiles/vision_app.dir/src/preprocessing.cpp.o"

@@ -69,10 +69,24 @@ include CMakeFiles/vision_app.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/vision_app.dir/flags.make
 
+CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o: CMakeFiles/vision_app.dir/flags.make
+CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o: /home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/day2_dicom_reader.cpp
+CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o: CMakeFiles/vision_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o -MF CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o.d -o CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o -c /home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/day2_dicom_reader.cpp
+
+CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/day2_dicom_reader.cpp > CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.i
+
+CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/day2_dicom_reader.cpp -o CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.s
+
 CMakeFiles/vision_app.dir/src/main.cpp.o: CMakeFiles/vision_app.dir/flags.make
 CMakeFiles/vision_app.dir/src/main.cpp.o: /home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/main.cpp
 CMakeFiles/vision_app.dir/src/main.cpp.o: CMakeFiles/vision_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vision_app.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vision_app.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_app.dir/src/main.cpp.o -MF CMakeFiles/vision_app.dir/src/main.cpp.o.d -o CMakeFiles/vision_app.dir/src/main.cpp.o -c /home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/main.cpp
 
 CMakeFiles/vision_app.dir/src/main.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/vision_app.dir/src/main.cpp.s: cmake_force
 CMakeFiles/vision_app.dir/src/preprocessing.cpp.o: CMakeFiles/vision_app.dir/flags.make
 CMakeFiles/vision_app.dir/src/preprocessing.cpp.o: /home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/preprocessing.cpp
 CMakeFiles/vision_app.dir/src/preprocessing.cpp.o: CMakeFiles/vision_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vision_app.dir/src/preprocessing.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vision_app.dir/src/preprocessing.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_app.dir/src/preprocessing.cpp.o -MF CMakeFiles/vision_app.dir/src/preprocessing.cpp.o.d -o CMakeFiles/vision_app.dir/src/preprocessing.cpp.o -c /home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/preprocessing.cpp
 
 CMakeFiles/vision_app.dir/src/preprocessing.cpp.i: cmake_force
@@ -99,12 +113,14 @@ CMakeFiles/vision_app.dir/src/preprocessing.cpp.s: cmake_force
 
 # Object files for target vision_app
 vision_app_OBJECTS = \
+"CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o" \
 "CMakeFiles/vision_app.dir/src/main.cpp.o" \
 "CMakeFiles/vision_app.dir/src/preprocessing.cpp.o"
 
 # External object files for target vision_app
 vision_app_EXTERNAL_OBJECTS =
 
+vision_app: CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o
 vision_app: CMakeFiles/vision_app.dir/src/main.cpp.o
 vision_app: CMakeFiles/vision_app.dir/src/preprocessing.cpp.o
 vision_app: CMakeFiles/vision_app.dir/build.make
@@ -141,6 +157,29 @@ vision_app: /usr/local/lib/libopencv_wechat_qrcode.so.4.13.0
 vision_app: /usr/local/lib/libopencv_xfeatures2d.so.4.13.0
 vision_app: /usr/local/lib/libopencv_xobjdetect.so.4.13.0
 vision_app: /usr/local/lib/libopencv_xphoto.so.4.13.0
+vision_app: /usr/lib/x86_64-linux-gnu/libz.so
+vision_app: /usr/lib/x86_64-linux-gnu/libjpeg.so
+vision_app: /usr/lib/x86_64-linux-gnu/libexpat.so
+vision_app: /usr/lib/x86_64-linux-gnu/libpng.so
+vision_app: /usr/lib/x86_64-linux-gnu/libITKTestKernel-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKConvolution-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKColormap-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKDICOMParser-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKDenoising-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5_cpp.so
+vision_app: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so
+vision_app: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5_hl.so
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOBruker-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOCSV-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOHDF5-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOJPEG2000-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOLSM-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMINC-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMRC-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKRegistrationMethodsv4-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKReview-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKVideoIO-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKVtkGlue-5.3.so.1
 vision_app: /usr/local/lib/libopencv_shape.so.4.13.0
 vision_app: /usr/local/lib/libopencv_highgui.so.4.13.0
 vision_app: /usr/local/lib/libopencv_datasets.so.4.13.0
@@ -161,8 +200,115 @@ vision_app: /usr/local/lib/libopencv_flann.so.4.13.0
 vision_app: /usr/local/lib/libopencv_photo.so.4.13.0
 vision_app: /usr/local/lib/libopencv_imgproc.so.4.13.0
 vision_app: /usr/local/lib/libopencv_core.so.4.13.0
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMeshBYU-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMeshFreeSurfer-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMeshGifti-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKgiftiio-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libexpat.so
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMeshOBJ-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMeshOFF-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMeshVTK-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMeshBase-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKOptimizersv4-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitklbfgs-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOBMP-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOGDCM-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libgdcmMSFF.so.3.0.22
+vision_app: /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.22
+vision_app: /usr/lib/x86_64-linux-gnu/libgdcmIOD.so.3.0.22
+vision_app: /usr/lib/x86_64-linux-gnu/libgdcmDSED.so.3.0.22
+vision_app: /usr/lib/x86_64-linux-gnu/libgdcmCommon.so.3.0.22
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOGIPL-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOJPEG-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKQuadEdgeMesh-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOMeta-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKMetaIO-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIONIFTI-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKniftiio-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKznz-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libm.so
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIONRRD-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKNrrdIO-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOPNG-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOTIFF-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitktiff-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libz.so
+vision_app: /usr/lib/x86_64-linux-gnu/libjpeg.so
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOVTK-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKLabelMap-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKFastMarching-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKPolynomials-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKBiasCorrection-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKDeformableMesh-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKDiffusionTensorImage-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKPDEDeformableRegistration-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKFFT-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKImageFeature-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKOptimizers-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOBioRad-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOGE-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOSiemens-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOIPL-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitkopenjpeg-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOSpatialObjects-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOXML-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOStimulate-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOTransformHDF5-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOTransformInsightLegacy-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOTransformMatlab-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOTransformBase-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKTransformFactory-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKKLMRegionGrowing-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKMarkovRandomFieldsClassifiers-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKQuadEdgeMeshFiltering-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKRegionGrowing-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKWatersheds-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKMathematicalMorphology-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKStatistics-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitkNetlibSlatec-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKSpatialObjects-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKMesh-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKTransform-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKPath-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKSmoothing-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKIOImageBase-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKVideoCore-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKVTK-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKCommon-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitkdouble-conversion-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitksys-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libITKVNLInstantiation-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitkvnl_algo-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitkvnl-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitkv3p_netlib-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libitkvcl-5.3.so.1
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkRenderingUI-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libGLEW.so
+vision_app: /usr/lib/x86_64-linux-gnu/libX11.so
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkIOImage-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libfreetype.so
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkkissfft-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-9.1.so.9.1.0
+vision_app: /usr/lib/x86_64-linux-gnu/libtbb.so.12.11
+vision_app: /usr/lib/x86_64-linux-gnu/libvtksys-9.1.so.9.1.0
 vision_app: CMakeFiles/vision_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable vision_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable vision_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vision_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

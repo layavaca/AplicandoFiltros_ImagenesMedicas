@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/day2_dicom_reader.cpp" "CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o" "gcc" "CMakeFiles/vision_app.dir/src/day2_dicom_reader.cpp.o.d"
   "/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/main.cpp" "CMakeFiles/vision_app.dir/src/main.cpp.o" "gcc" "CMakeFiles/vision_app.dir/src/main.cpp.o.d"
   "/home/layavaca/Escritorio/ProyectoInterciclo/cpp_app/src/preprocessing.cpp" "CMakeFiles/vision_app.dir/src/preprocessing.cpp.o" "gcc" "CMakeFiles/vision_app.dir/src/preprocessing.cpp.o.d"
   )

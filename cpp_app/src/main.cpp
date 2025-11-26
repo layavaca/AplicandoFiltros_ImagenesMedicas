@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+/*int main()
 {
     cout << "=== Vision App Dia 1 Iniciado ===" << endl;
 
@@ -28,6 +28,17 @@ int main()
 
     cout << "Presiona una tecla para salir..." << endl;
     waitKey(0);
+
+    return 0;
+}
+*/
+void run_day2();
+
+int main()
+{
+    std::cout << "=== Vision App Dia 2 Iniciado ===" << std::endl;
+
+    run_day2();
 
     return 0;
 }
